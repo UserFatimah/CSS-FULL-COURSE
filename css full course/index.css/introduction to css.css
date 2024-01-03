@@ -1,0 +1,27 @@
+body {
+    background: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+.image-split {
+    width: 100vh;
+    height: cover;
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.image-split .html {
+    margin-right: 20px;
+}
+h3 {
+    color: dodgerblue;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+h1 {
+    color: dodgerblue;
+    text-transform: capitalize;
+    
+}

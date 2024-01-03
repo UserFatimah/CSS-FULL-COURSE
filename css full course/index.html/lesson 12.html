@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform properties</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 22px;
+        }
+        button {
+            padding: 20px;
+            font-size: 20px;
+            transform: skewY(200%);          
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+            transition: all 3s linear 2s;
+        }
+        h1:hover {
+            color: yellow;
+            
+        }    
+        .box {
+            width: 300px;
+            height: 70px;
+            background: linear-gradient(pink,yellow, brown, blue);
+            filter: blur(3px);
+            -webkit-box-reflect:  below 15px linear-gradient(transparent, transparent, white);
+            margin: 50px;
+            
+           
+        }
+        .parent {
+            width: 500px;
+            height: 250px;
+            background: brown;
+            transition: all 2s ease-in-out;
+       
+        }
+        .parent:hover {
+            transform: skew(50deg, -50deg);
+        }
+        .cover {
+            width: 500px;
+            height: 250px;
+            background: teal;
+            transition: all 2s ease-in-out;
+        }
+        dt, dl {
+            color: antiquewhite;
+            text-shadow: 0 1.5rem 3rem rgba(255,255,255,0.5444);
+            font-weight: 900;
+            text-transform: capitalize;
+            font-size: 30px;
+        }
+        dt, dl::before {
+            content: open-quote;
+        }
+        dt,
+         dl::after {
+            content:  close-quote;
+        }
+          /* transform: matrix(1,-2, 2, 1, 0, 2); */     
+          /* transform: matrix(scaleX(1) skewY(), skewX(), scaleY(), translateX(), translateY()); */
+    </style>
+    <h1>TRANSFORM PROPERTY</h1>
+    <p>The <small>transform</small> property is used to apply transformations to elements. The <small>transform</small> property allows you to modify the apperance and position of an element without affecting the layout of the document
+    </p>
+    <h3>Types of Transform Property</h3>
+    <ul>
+        <li>translate </li>
+        <li>rotate </li>
+        <li>scale </li>
+        <li>skew </li>
+        <!-- <li>matrix </li> -->
+    </ul>
+    <dt>
+        <dl>translate property</dl>
+        <dd>the translate property allows you to transfer an element from one place to another along the x (horizontal) axis, the Y (vertical) axis, and the Z (depth) axis similar to how your might think of moving an element using offset, like top, bottom, right, and left</dd>
+    </dt>
+    <dt>
+        <dl>rotate property</dl>
+        <dd>the rotate property allows you to rotate element. the rotate property  defines a value for how much an elements is rotated clockwise around z-axis</dd>
+    </dt>
+    <dt>
+        <dl>the scale property</dl>
+        <dd>the scale property defines values for how much an element is scaled in x-axis and y-directions. you can also define how much an element is scaled in z-direction.</dd>
+    </dt>
+    <dt>
+    <dl>the skew</dl>
+    <dd>this transformation is a shear mapping (transvection) that distorts each point within an element by a certain angle in the horizontal and vertical directions. the effect is as if you grabbed each corner of the element and pulled them along a certain angle.</dd>
+</dt>
+    <!-- <dt> 
+        <dl>The Matrix</dl>
+        <dd>The <small>matrix</small>  in the <small>transform</small> property  allows you to apply 2D transformation using a 6-value matrix. The matrix represents a mathematical transformation matrix that can combine various transformation into one</dd>
+    </dt> -->
+  
+
+  
+</body>
+</html>

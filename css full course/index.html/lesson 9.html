@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>floats and display types</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 25px;
+        }
+        ul li {
+            display: inline;
+            margin: 20px;
+        }
+        h1 {
+            margin-left: 20px;
+            position: relative;
+            bottom: 20px;
+        }
+        b {
+            padding: 2px;
+            
+        }
+        dt, dl {
+            color: white;
+            font-size: 35px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        table, thead, th, tbody,tr td {
+            padding: 10px;
+        }
+        /* .t1 {
+            background: white;
+            color: black;
+        } */
+        caption {
+            border: 1px solid white;
+        }
+
+    </style>
+    <h1><center>FLOAT AND DISPLAY TYPE PROPERTY</center></h1>
+    <!-- illustrations on floats should be provided -->
+    <dt>
+        <dl><b>what is float in CSS?</b></dl>
+        <dd>the floats is used for positioning and formatting content.<b>it places an element on the left or right side of its container, allowing text and inline elements to wrap around it</b>. the element is removed from the normal flow of the container. though still remaining a part of the flow in contrast to absolute positioning</dd>
+    </dt>
+    <dt> 
+        <dl><b>what is display property in CSS?</b></dl>
+        <dd>the display property specifies if/how an element is displayed because every HTML element has a default display value depending on what type of element it is</dd>
+    </dt>
+<h3><center>types of display property</center></h3>
+<table border="2">
+    <caption>property value</caption>
+    <thead>
+        <th>value</th>
+        <th>description</th>
+    </thead>
+    <tbody>
+        <tr class="t1">
+        <td><b>inline</b></td>
+        <td>the display option of inline <b>enables the element to fit itself on the same line.</b></td>
+    </tr>
+        <tr>
+            <td><b>block</b></td>
+            <td>an element that has the display property set to <b>block</b> <b>starts on a new line and takes up the available screen width.</b> it is possible to specify the width and height of such elements</td>
+        </tr>
+        <tr class="t1">
+            <td><b>inline-block</b></td>
+            <td>inline-block <b>is used to display an element as an inline-level block container</b>. the element itself is formatted as an inline element, but it can apply height and width values. it is placed as an inline element (on the same line as adjacent content)</td>
+        </tr>
+        <tr>
+            <td><b>inline-flex</b></td>
+            <td>the  inline-flex does not make flex items display inline, it <b>makes the flex container display inline</b>.</td>
+        </tr>
+    </tbody>
+</table>
+    <!-- illustration to be provided -->
+</body>
+</html>

@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    
+}
+dt, dl {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 900;
+}
+

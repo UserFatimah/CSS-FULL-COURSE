@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background properties</title>
+</head>
+<body>
+    <style>
+        body {
+            background: black;
+            color: white;
+            font-size: 25px;
+        }
+        ol > li {
+            padding: 12px;
+        }
+        table, thead, th, tbody, tr td {
+            border-collapse: collapse;
+            border: 1px dashed white;
+            margin: 10px;
+            padding: 10px;  
+        }
+        dt, dl {
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+        caption {
+            margin: 20px;
+        }
+        mark {
+            background: white;
+            color: black;
+        }
+        h3 {
+            text-transform: capitalize;
+            text-decoration: underline;
+        }
+    </style>
+    <h1><center>CSS BACKGROUND PROPERTIES</center></h1>
+    <p>The CSS background properties are <mark>used to define the background effect for elements</mark> (what paints underneath the content in that element). it is a shorthand property, which means that it allows you to write what would be multiple CSS properties in one.</p>
+    <h3>the background property is a shorthand property for:</h3>
+    <dt>
+        <dl><b>background-color</b></dl>
+        <dd>the background-color property <mark>sets the backgrond color of an element</mark> the background of an element is the total size of the element.</dd>
+    </dt>
+    <dt>
+        <dl><b>background-image</b></dl>
+        <dd>the background-image property <mark>sets one or more background images for an element.</mark> by default. a background image is placed at the top-left corner of an element, and repeated both vertically and horizontally</dd>
+    </dt>
+    <dt>
+        <dl><b>background-repeat</b></dl>
+        <dd>the background-repeat property <mark>set how background images are repeated</mark>. a background image can be repeated along the horizontal and vertical axis, or not repeated at all</dd>
+    </dt>
+    <dt>
+        <dl><b>background-position</b></dl>
+        <dd>the background-position property <mark>sets the starting position of a background image</mark>.</dd>
+    </dt>
+    <dt>
+        <dl><b>background-origin</b></dl>
+        <dd>the background-origin property <mark>helps in adjusting the background image of the webpage.</mark> this property is used to set the origin of the image in the background. </dd>
+    </dt>
+    <dt>
+        <dl><b>background-attachment</b></dl>
+        <dd>the background-attachment <mark>sets whether a background image scrolls with the rest of the page, or is fixed</mark></dd>
+    </dt>
+    <dt>
+        <dl><b>background-size</b></dl>
+        <dd>the background-size property <mark>sets the size of the elements background image</mark>. the image can be left to its natural size, stretched, or constrained to fit the available space</dd>
+    </dt>
+    <dt>
+        <dl><b>background-blend-mode</b></dl>
+        <dd>the background-blend-mode property <mark>sets how an element's background images should blend with each other and with element's background color.</mark> </dd>
+    </dt>
+    <dt>
+        <dl><b>background-clip</b></dl>
+        <dd>the background-clip property <mark>defines how far the background (color or image) should extend within an element.</mark></dd>
+    </dt>
+
+    <table border="3">
+        <caption>background properties and values🧾🧾</caption>
+        <thead>
+            <th>BG-repeat</th>
+            <th>BG-position</th>
+            <th>BG-size</th>
+            <th>BG-origin</th>
+            <th>BG-attachment</th>
+            <th>BG-blend-mode</th>
+            <th>BG-clip</th>
+        </thead>
+        <tbody>
+            <td>repeat</td>
+            <td>center</td>
+            <td>cover</td>
+            <td>border-box</td>
+            <td>fixed</td>
+            <td>darken</td>
+            <td>text</td>
+
+            <tr>
+            <td>no-repeat</td>
+            <td>contain</td>
+            <td>contain</td>
+            <td>padding-box</td>
+            <td>scroll</td>
+            <td>lighten</td>
+            <td>border</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>cover</td>
+            <td>center</td>
+            <td>content-box</td>
+            <td>local</td>
+            <td>contrast</td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+    <fieldset>
+    <legend>assignment</legend>
+    <ul>
+        <li>create a responsive table, the headings should be colored with HEXADECIMAL color code.   </li>
+        <li>the background of the table should be colored with RGB color code</li>
+        <li>table data should be colored with HSL color code</li>
+    </ul>
+</fieldset>
+    <!--  illustration needed -->
+</body>
+</html>

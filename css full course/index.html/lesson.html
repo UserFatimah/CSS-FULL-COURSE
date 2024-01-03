@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+</head>
+<body>
+    <style> 
+    :root {
+      font-size: 20px;
+     /* background-image: url(/img/avatar-way-of-water-1671126214.jpg); */
+     background: black;
+     color: white;
+    }
+
+.div1 {
+  width: 200px;
+  height: 150px;
+  background: green;
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  position: relative;
+  bottom: 7rem;
+  left: 7rem;
+}
+section {
+  background: rgb(37, 68, 206);
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  position: relative;
+  bottom: 20px;
+}
+.div2 {
+  width: 200px;
+  height: 150px;
+  background: rgb(113, 161, 113);
+  margin: 20px;
+  color: white;
+  font-size: 30px;
+  animation: name 1s linear infinite 0.5s running backwards;
+}
+@keyframes name {
+  0% {
+    background-color: blue;
+  }
+  10% {
+    background-color: green;
+  }
+  20% {
+    background-color: red;
+  }
+  30% {
+    background-color: purple;
+  }
+  40% {
+    background-color: rgb(66, 172, 114);
+  }
+  50% {
+    background-color: rgb(212, 107, 160);
+  }
+  60% {
+    background-color: rgb(202, 163, 148);
+  }
+  80% {
+    background-color: rgb(31, 214, 71);
+  }
+  100% {
+    background-color: rgb(216, 121, 83);
+    transform: rotate(360deg);
+  }
+  
+}
+h3 {
+  font-size: 40px;
+  text-decoration: underline;
+  text-align: center;
+  animation-name: ball;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-fill-mode: backwards;
+  animation-delay: 2s;
+  animation-play-state: running;
+}
+@keyframes ball { 
+  from {
+    background-color: yellowgreen;
+    color: purple;
+  }
+  to {
+    background-color: white;
+    color: blue;
+  }
+  
+}
+
+        /* transform: matrix(1,-2, 2, 1, 0, 2); */     
+          /* transform: matrix(scaleX(1) skewY(), skewX(), scaleY(), translateX(), translateY()); */
+    </style>
+<!-- position absolute -->
+<!-- translate -->
+<h3>transition properties</h3>
+<section>
+  <div class="div2 div11">
+  </div>
+  </section>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint assumenda dolores mollitia! At similique fugiat atque animi libero iure tenetur ratione quisquam nihil ea dicta culpa, sequi qui doloribus dolorum.</p>
+</html>
+</body>

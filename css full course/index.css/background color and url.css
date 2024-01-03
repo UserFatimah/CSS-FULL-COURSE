@@ -1,0 +1,12 @@
+table {
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 20px;
+}
+body {
+background: black;
+color: white;
+font-size: 35px;
+text-transform: capitalize;
+cursor: pointer;
+}

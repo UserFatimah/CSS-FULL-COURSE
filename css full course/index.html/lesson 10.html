@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-size: 23px;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+        .boxes {
+            display: flex;
+            justify-content: center;
+            margin: 30px;
+            
+        }
+        table, thead, th, tbody, tr td {
+           border-collapse: collapse;
+            border: 2px solid white;
+            padding: 15px;
+            margin: 10px;
+            text-align: justify;
+        }
+        table thead th {
+            color: gainsboro;
+        }
+        dt,dl {
+            font-weight: 900;
+        }
+        dt,dl::before {
+            content: open-quote;
+        }
+        dt,dl::after {
+            content: close-quote;
+        }
+        dt, dl {
+            font-size: 30px;
+        }
+    </style>
+    <h1>FLEXBOX</h1>
+    <p>Flexbox is a layout model in CSS that allows you to design a flexible and efficient way to distribute space and align items with a container. Flexbox is a one-dimensional layout method for arranging items in rows and columns.</p>
+
+    <h3 style="text-decoration: underline;">Fact(s) about Flexbox</h3>
+    <ul>
+        <li>Flex box stands for flexible box</li>
+        <li>It is a display type that comes with a range of properties allowing you to arrange items easily</li>
+        <li>It is an alternative to using displays, and other layout properties</li>
+        <li>A flexbox element is split into two main parts: the container, and the items
+            <ol>
+                <li>the container is the parent element in which the display type is active, this is usually in the form of a div.</li>
+                <li>flex items are child element of the container, and make up the contents of the box.</li>
+            </ol>
+        </li>
+    </ul>
+    <h2><center>Flexbox Properties</center></h2>
+    <p><small><b>NOTE:</b> <i>display: flex;</i> must be activated in the flex container because it establishes a new flex formatting context for its children.</small></p>
+    <dt>
+        <dl>Flex direction</dl>
+        <dd>The flex-direction property defines the direction in which the flex container's main axis  runs. It determines how flex items are placed in the flex container.</dd>
+        <!-- illustration needed -->
+    </dt>
+    <dt>
+        <dl>Flex wrap</dl>                                                             
+        <dd>The <small>flex-wrap</small> is used to control the wrapping behaviour of flex items within the flex container. It defines whether flex items are forced onto one line or can wrap onto multiple lines.</dd>
+        <!-- illustration needed -->
+    </dt>
+    <dt>
+        <dl>Justify content</dl>
+        <dd>The <small>justify-content</small> defines how the flex items are aligned along the main axis. It helps distribute extra space in the container, or handle situations where there is not enough space.</dd>
+    </dt>
+    <dt>
+        <dl>Align-items</dl>
+        <dd>The <small>align-items</small> defines how the flex items are aligned along the cross axis. It determines the default behavior for how items are positioned in the container perpendicular to the main axis</dd>
+    </dt>
+
+    <div class="boxes">
+    <table border="3">
+        <caption>Flexbox properties and value</caption>
+        <thead>
+            <th>flex-wrap</th>
+            <th>flex-direction</th>
+            <th>justify-content</th>
+            <th>align-items</th>
+        </thead>
+        <tbody>
+            <td>wrap</td>
+            <td>row</td>
+            <td>center</td>
+            <td>center</td>
+            <tr>
+                <td>nowrap</td>
+                <td>column</td>
+                <td>flex-start</td>
+                <td>flex-start</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>row-reverse</td>
+                <td>flex-end</td>
+                <td>flex-end</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>column-reverse</td>
+                <td>space-between</td>
+                <td>space-between</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>space-around</td>
+                <td>baseline</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td> &nbsp; </td>
+                <td>space-evenly</td>
+                <td>stretch</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

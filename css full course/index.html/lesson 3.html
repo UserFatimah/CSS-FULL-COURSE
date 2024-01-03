@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lesson 3.css">
+    <title>Pseudo Selectors</title>
+</head>
+<body>
+    <h1>pseudo selectors</h1>
+    <p>A CSS pseudo-class is a <mark> keyword added to a selector that specifies a special state of the selected elements</mark></p>
+<h3>there two types of pseudo selector</h3>
+<p>1. <mark>pseudo-class are used to target state.</mark> 2. <mark>pseudo-element are used to target specific parts of an element.</mark></p>
+<table border="2">
+    <caption>TYPES OF CSS PSEUDO CLASS</caption>
+    <thead>
+        <th>psuedo-class selector</th>
+        <th>Description</th>
+    </thead>
+    <tbody>
+        <tr class="specify">
+            <td><u>:active</u></td>
+            <td>represents an element (such as a button) that is being activated by the user. <mark> when using  a mouse "activation" typically starts when the user  presses down the primary mouse button</mark></td>
+        </tr>
+        <tr>
+            <td><u>:hover</u></td>
+            <td>it matches when the user interacts with an element with a pointing device, and does not  necessarily activate it. it is generally triggered  when the user  hovers over an element  with  the cursor (mouse pointer)</td>
+        </tr>
+        <tr class="specify">
+            <td><u>:first-child</u></td>
+            <td>represents the first element among a group of sibling elements. it is used to target the  first-child element of its parent for styling</td>
+        </tr>
+        <tr>
+            <td><u>:last-child</u></td>
+            <td>represents the last element among a group of sibling elements. it is used to target the last-child element of its parent for styling</td>
+        </tr>
+        <tr class="specify">
+            <td><u>:link</u></td>
+            <td>represents an element that has not yet been visited. it matches every unvisited  &lt; a &gt; element that has an href attribute</td>
+        </tr>
+        <tr>
+            <td><u>:visited</u></td>
+            <td>it applies  once the link has been visited by the user, for privacy reasons, the styles that can be modified using the selector are very limited</td>
+        </tr>
+        <tr class="specify">
+            <td><u>:nth-child</u></td>
+            <td>it allows us to select one or more elements based on their source order. <mark>where n can be a number, a keyword, even or odd</mark>.</td>
+        </tr>
+        <tr>
+            <td><u>:empty</u></td>
+            <td><mark>it selects any element with no content, whether text or child elements.</mark> The selectors looks for element with no child nodes, text-content, or, whitespace characters. the :empty does not consider an element that has spaces, tabs or line breaks to be empty</td>
+        </tr>
+        <tr class="specify">
+            <td><u>:disabled</u></td>
+            <td><mark>it represents any disabled element.</mark> an element is disabled if it can't be activated (selected, clicked on, typed into.) or accepts focus. the element also has an enabled state, in which it can be activated or accept focus.</td>
+        </tr>
+        <tr>
+            <td><u>:invalid</u></td>
+            <td>is used to select every form element which does not validate according to the elements. this selectors works only for some form elemnts with limitation such as input elements with min and max and max attributes, emails fields with legal email, or email fields with a numeric value. etc.</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+
+body {
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: underline;
+}
+dt dl {
+    text-decoration: underline;
+}
+h3 {
+    font-size: 30px;
+    text-align: center;
+}
+.parent-box {
+    margin: 50px;
+    width: 500px;
+    height: 400px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px ridge white;
+}
+.parent-box .child-box {
+    padding: 10px;
+    width: 80%;
+    height: 80%;  
+    background: white;
+}
+dt, dl::before {
+    content: open-quote;
+    }
+    dt, dl::after {
+    content: close-quote;
+    }
+    p
+     {
+    font-weight: 100;
+    font-size: 20px;
+     }
